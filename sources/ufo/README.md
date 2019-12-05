@@ -22,7 +22,8 @@ The variable fonts are saved in folder named `variable_ttf`.
 
 ## Technical details
 
-This aproach has to deal with some technical limitations wich are caused by the different
+This aproach has to deal with some technical limitations wich are caused by the different interpolation
+models used by Glyphs App and variable fonts.
 
 The original designspace in the Glyphs files for Sofia Sans was defined like this:
 
