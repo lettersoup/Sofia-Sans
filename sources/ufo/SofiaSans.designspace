@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
+    <axis tag="wdth" name="Width" minimum="80" maximum="100" default="100">
+      <map input="80" output="30"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="SofiaSans-Light.ufo" name="Sofia Sans Light" familyname="Sofia Sans" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-CondensedLight.ufo" name="Sofia Sans Condensed Light" familyname="Sofia Sans" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-Regular.ufo" name="Sofia Sans Regular" familyname="Sofia Sans" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-Condensed.ufo" name="Sofia Sans Condensed" familyname="Sofia Sans" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-Bold.ufo" name="Sofia Sans Bold" familyname="Sofia Sans" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-CondensedBold.ufo" name="Sofia Sans Condensed Bold" familyname="Sofia Sans" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Sofia Sans HairLine" familyname="Sofia Sans" stylename="HairLine" filename="instance_ufos/SofiaSans-HairLine.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Thin" familyname="Sofia Sans" stylename="Thin" filename="instance_ufos/SofiaSans-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="130.434780"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans UltraLight" familyname="Sofia Sans" stylename="UltraLight" filename="instance_ufos/SofiaSans-UltraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="178.260870"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans ExtraLight" familyname="Sofia Sans" stylename="ExtraLight" filename="instance_ufos/SofiaSans-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="221.739130"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Light" familyname="Sofia Sans" stylename="Light" filename="instance_ufos/SofiaSans-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="260.869570"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans SemiLight" familyname="Sofia Sans" stylename="SemiLight" filename="instance_ufos/SofiaSans-SemiLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="308.695650"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Regular" familyname="Sofia Sans" stylename="Regular" filename="instance_ufos/SofiaSans-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Medium" familyname="Sofia Sans" stylename="Medium" filename="instance_ufos/SofiaSans-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="452.631580"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans SemiBold" familyname="Sofia Sans" stylename="SemiBold" filename="instance_ufos/SofiaSans-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="478.947370"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Bold" familyname="Sofia Sans" stylename="Bold" filename="instance_ufos/SofiaSans-Bold.ufo" stylemapfamilyname="Sofia Sans" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="573.684210"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans ExtraBold" familyname="Sofia Sans" stylename="ExtraBold" filename="instance_ufos/SofiaSans-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="684.210530"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Black" familyname="Sofia Sans" stylename="Black" filename="instance_ufos/SofiaSans-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="794.736840"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Heavy" familyname="Sofia Sans" stylename="Heavy" filename="instance_ufos/SofiaSans-Heavy.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond HairLine" familyname="Sofia Sans" stylename="Semi Cond HairLine" filename="instance_ufos/SofiaSansSemiCond-HairLine.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Thin" familyname="Sofia Sans" stylename="Semi Cond Thin" filename="instance_ufos/SofiaSansSemiCond-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="122.245760"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond UltraLight" familyname="Sofia Sans" stylename="Semi Cond UltraLight" filename="instance_ufos/SofiaSansSemiCond-UltraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="166.737290"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond ExtraLight" familyname="Sofia Sans" stylename="Semi Cond ExtraLight" filename="instance_ufos/SofiaSansSemiCond-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="215.677970"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Light" familyname="Sofia Sans" stylename="Semi Cond Light" filename="instance_ufos/SofiaSansSemiCond-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="237.923730"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond SemiLight" familyname="Sofia Sans" stylename="Semi Cond SemiLight" filename="instance_ufos/SofiaSansSemiCond-SemiLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="309.110170"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Regular" familyname="Sofia Sans" stylename="Semi Cond Regular" filename="instance_ufos/SofiaSansSemiCond-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="384.745760"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Medium" familyname="Sofia Sans" stylename="Semi Cond Medium" filename="instance_ufos/SofiaSansSemiCond-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="440.519880"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond SemiBold" familyname="Sofia Sans" stylename="Semi Cond SemiBold" filename="instance_ufos/SofiaSansSemiCond-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="472.629970"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Bold" familyname="Sofia Sans" stylename="Semi Cond Bold" filename="instance_ufos/SofiaSansSemiCond-Bold.ufo" stylemapfamilyname="Sofia Sans Semi Cond" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="563.608560"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond ExtraBold" familyname="Sofia Sans" stylename="Semi Cond ExtraBold" filename="instance_ufos/SofiaSansSemiCond-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="675.993880"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Black" familyname="Sofia Sans" stylename="Semi Cond Black" filename="instance_ufos/SofiaSansSemiCond-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="783.027520"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Semi Cond Heavy" familyname="Sofia Sans" stylename="Semi Cond Heavy" filename="instance_ufos/SofiaSansSemiCond-Heavy.ufo">
+      <location>
+        <dimension name="Weight" xvalue="890.061160"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond HairLine" familyname="Sofia Sans" stylename="Cond HairLine" filename="instance_ufos/SofiaSansCond-HairLine.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Thin" familyname="Sofia Sans" stylename="Cond Thin" filename="instance_ufos/SofiaSansCond-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="123.863640"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond UltraLight" familyname="Sofia Sans" stylename="Cond UltraLight" filename="instance_ufos/SofiaSansCond-UltraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="157.272730"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+   </instance>
+    <instance name="Sofia Sans Cond ExtraLight" familyname="Sofia Sans" stylename="Cond ExtraLight" filename="instance_ufos/SofiaSansCond-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="209.772730"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Light" familyname="Sofia Sans" stylename="Cond Light" filename="instance_ufos/SofiaSansCond-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="233.636360"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond SemiLight" familyname="Sofia Sans" stylename="Cond SemiLight" filename="instance_ufos/SofiaSansCond-SemiLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="305.227270"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Regular" familyname="Sofia Sans" stylename="Cond Regular" filename="instance_ufos/SofiaSansCond-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="367.272730"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Medium" familyname="Sofia Sans" stylename="Cond Medium" filename="instance_ufos/SofiaSansCond-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="423.311900"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond SemiBold" familyname="Sofia Sans" stylename="Cond SemiBold" filename="instance_ufos/SofiaSansCond-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="485.209000"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Bold" familyname="Sofia Sans" stylename="Cond Bold" filename="instance_ufos/SofiaSansCond-Bold.ufo" stylemapfamilyname="Sofia Sans Cond" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="575.241160"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond ExtraBold" familyname="Sofia Sans" stylename="Cond ExtraBold" filename="instance_ufos/SofiaSansCond-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="670.900320"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Black" familyname="Sofia Sans" stylename="Cond Black" filename="instance_ufos/SofiaSansCond-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="805.948550"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Cond Heavy" familyname="Sofia Sans" stylename="Cond Heavy" filename="instance_ufos/SofiaSansCond-Heavy.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="57"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond HairLine" familyname="Sofia Sans" stylename="Extra Cond HairLine" filename="instance_ufos/SofiaSansExtraCond-HairLine.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Thin" familyname="Sofia Sans" stylename="Extra Cond Thin" filename="instance_ufos/SofiaSansExtraCond-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="125.423730"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond UltraLight" familyname="Sofia Sans" stylename="Extra Cond UltraLight" filename="instance_ufos/SofiaSansExtraCond-UltraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="150.847460"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond ExtraLight" familyname="Sofia Sans" stylename="Extra Cond ExtraLight" filename="instance_ufos/SofiaSansExtraCond-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="191.525420"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Light" familyname="Sofia Sans" stylename="Extra Cond Light" filename="instance_ufos/SofiaSansExtraCond-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="227.118640"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond SemiLight" familyname="Sofia Sans" stylename="Extra Cond SemiLight" filename="instance_ufos/SofiaSansExtraCond-SemiLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="303.389830"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Regular" familyname="Sofia Sans" stylename="Extra Cond Regular" filename="instance_ufos/SofiaSansExtraCond-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="349.152540"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Medium" familyname="Sofia Sans" stylename="Extra Cond Medium" filename="instance_ufos/SofiaSansExtraCond-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="405.882350"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond SemiBold" familyname="Sofia Sans" stylename="Extra Cond SemiBold" filename="instance_ufos/SofiaSansExtraCond-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="494.117650"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Bold" familyname="Sofia Sans" stylename="Extra Cond Bold" filename="instance_ufos/SofiaSansExtraCond-Bold.ufo" stylemapfamilyname="Sofia Sans Extra Cond" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="558.823530"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond ExtraBold" familyname="Sofia Sans" stylename="Extra Cond ExtraBold" filename="instance_ufos/SofiaSansExtraCond-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="664.705880"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Black" familyname="Sofia Sans" stylename="Extra Cond Black" filename="instance_ufos/SofiaSansExtraCond-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Sofia Sans Extra Cond Heavy" familyname="Sofia Sans" stylename="Extra Cond Heavy" filename="instance_ufos/SofiaSansExtraCond-Heavy.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>
