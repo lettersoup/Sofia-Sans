@@ -1,7 +1,7 @@
 # Sofia Sans Matrix
-![basic proof](https://github.com/lettersoup/Sofia-Sans/blob/master/documentation/drawbot/basic-proof.png?raw=true)
-![specimen 02](https://github.com/lettersoup/Sofia-Sans/blob/master/specimens/SofiaSans_02.png?raw=true)
-![specimen 01](https://github.com/lettersoup/Sofia-Sans/blob/master/specimens/SofiaSans_01.png?raw=true)
+![basic proof](https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/FullEntcoding.jpg?raw=true)
+![specimen 02](https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/Destination01.jpg?raw=true)
+![specimen 01](https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/82792120_10214770297681148_5365277879217160192_n.jpg?raw=true)
 
 # Sofia Sans Matrix
 
