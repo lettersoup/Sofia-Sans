@@ -6,6 +6,6 @@
 # Sofia Sans Matrix
 
 This folder contains a version of Sofia Sans made for the low resolution (19x144 px.) route signs of buses, trolleybus and the trams. 
-The version is made together with Mario Evstatiev and the IBIS group. ТThe font contains only numbers and Bulgarian Cyrillic А-Я.
+The version is made together with Mario Evstatiev and the IBIS group. The font contains only numbers and Bulgarian Cyrillic А-Я. It is made in "VISE" (VEHICLE INFORMATION SYSTEM) EDITOR-SOFTWARE .
 
 
