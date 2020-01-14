@@ -1,7 +1,8 @@
 # Sofia Sans Matrix
 ![basic proof](https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/SofiaSansMatrixV2.jpg?raw=true)
 ![specimen 02](https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/82125350_10220791942851245_3608634975252905984_o.jpg?raw=true)
-
+[basic proof](https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/SofiaSansMatrixV2.jpg?raw=true)
+![specimen 03]https://github.com/lettersoup/Sofia-Sans/blob/master/SofiaSansMatrix/Pictures/82762334_10214788390613460_2019806803004489728_o.jpg?raw=true)
 
 # Sofia Sans Matrix
 
