@@ -1,3 +1,8 @@
 fontmake
+fontbakery
+gftools
+afdko
+statmake
+brotli
 defcon
 cu2qu
