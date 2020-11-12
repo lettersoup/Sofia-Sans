@@ -12,21 +12,21 @@ function postprocess_vf {
 
 echo "GENERATING VFs"
 VF_FILE=../fonts/ttf/SofiaSans\[wdth,wght]\.ttf
-fontmake -g SofiaSans-VF_a.glyphs -o variable --output-path $VF_FILE
+fontmake -g SofiaSans-VF-New-Prueba2.glyphs -o variable --output-path $VF_FILE
 
-VF_FILEit=../fonts/ttf/SofiaSans-Italic\[wdth,wght]\.ttf
-fontmake -g SofiaSans_Italic_VF_a.glyphs -o variable --output-path $VF_FILEit
+# VF_FILEit=../fonts/ttf/SofiaSans-Italic\[wdth,wght]\.ttf
+# fontmake -g SofiaSans_Italic_VF_a.glyphs -o variable --output-path $VF_FILEit
 
 
-# echo "POST PROCESSING VFs"
+echo "POST PROCESSING VFs"
 
-# postprocess_vf $VF_FILE
+postprocess_vf $VF_FILE
 # postprocess_vf $VF_FILEit
 
 # python3 karla_stat_table.py $VF_FILE
 # # python3 gen_stat.py $VF_FILE
 
-# rm ../fonts/ttf/*gasp.ttf
+rm ../fonts/ttf/*gasp.ttf
 
 
 # echo "GENERATING TTFs"

@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="1" maximum="1000" default="100">
+      <map input="1" output="16"/>
+      <map input="100" output="23"/>
+      <map input="200" output="34"/>
+      <map input="300" output="85"/>
+      <map input="350" output="350"/>
+      <map input="400" output="95"/>
+      <map input="500" output="500"/>
+      <map input="700" output="118"/>
+      <map input="800" output="139"/>
+      <map input="900" output="160"/>
+      <map input="1000" output="100"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="50" maximum="100" default="75">
+      <map input="50" output="30"/>
+      <map input="75" output="57"/>
+      <map input="87.5" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="SofiaSans-Light.ufo" name="Sofia Sans Light" familyname="Sofia Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="16"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-CondensedLight.ufo" name="Sofia Sans Condensed Light" familyname="Sofia Sans" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="16"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-Condensed.ufo" name="Sofia Sans Condensed" familyname="Sofia Sans" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="75"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-Regular.ufo" name="Sofia Sans Regular" familyname="Sofia Sans" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="85"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-BlackCondensed.ufo" name="Sofia Sans Black Condensed" familyname="Sofia Sans" stylename="Black Condensed">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-Black.ufo" name="Sofia Sans Black" familyname="Sofia Sans" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="SofiaSans-DSFix.ufo" name="Sofia Sans DSFix" familyname="Sofia Sans" stylename="DSFix">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="30"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Sofia Sans HairLine" familyname="Sofia Sans" stylename="HairLine" filename="instance_ufo/SofiaSans-HairLine.ufo" stylemapfamilyname="Sofia Sans HairLine" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="16"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans Thin" familyname="Sofia Sans" stylename="Thin" filename="instance_ufo/SofiaSans-Thin.ufo" stylemapfamilyname="Sofia Sans Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="23"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans ExtraLight" familyname="Sofia Sans" stylename="ExtraLight" filename="instance_ufo/SofiaSans-ExtraLight.ufo" stylemapfamilyname="Sofia Sans ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="34"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans Light" familyname="Sofia Sans" stylename="Light" filename="instance_ufo/SofiaSans-Light.ufo" stylemapfamilyname="Sofia Sans Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="53"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans Regular" familyname="Sofia Sans" stylename="Regular" filename="instance_ufo/SofiaSans-Regular.ufo" stylemapfamilyname="Sofia Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="85"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans Medium" familyname="Sofia Sans" stylename="Medium" filename="instance_ufo/SofiaSans-Medium.ufo" stylemapfamilyname="Sofia Sans Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="95"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans SemiBold" familyname="Sofia Sans" stylename="SemiBold" filename="instance_ufo/SofiaSans-SemiBold.ufo" stylemapfamilyname="Sofia Sans SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans Bold" familyname="Sofia Sans" stylename="Bold" filename="instance_ufo/SofiaSans-Bold.ufo" stylemapfamilyname="Sofia Sans" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="118"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans ExtraBold" familyname="Sofia Sans" stylename="ExtraBold" filename="instance_ufo/SofiaSans-ExtraBold.ufo" stylemapfamilyname="Sofia Sans ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="139"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans Black" familyname="Sofia Sans" stylename="Black" filename="instance_ufo/SofiaSans-Black.ufo" stylemapfamilyname="Sofia Sans Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Sofia Sans ExtraBlack" familyname="Sofia Sans" stylename="ExtraBlack" filename="instance_ufo/SofiaSans-ExtraBlack.ufo" stylemapfamilyname="Sofia Sans ExtraBlack" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>7BE597F2-1213-4429-94A3-E96FC63EF83E</key>
+        <dict>
+          <key>HH</key>
+          <string>16</string>
+          <key>HV</key>
+          <string>16</string>
+          <key>OH</key>
+          <string>16</string>
+          <key>OV</key>
+          <string>16</string>
+          <key>nV</key>
+          <string>16</string>
+          <key>nd</key>
+          <string>16</string>
+          <key>oH</key>
+          <string>16</string>
+          <key>oV</key>
+          <string>16</string>
+        </dict>
+        <key>8E001827-4555-4882-9710-42A9586BB804</key>
+        <dict>
+          <key>nV</key>
+          <string>16</string>
+          <key>nd</key>
+          <string>16</string>
+          <key>oH</key>
+          <string>16</string>
+          <key>oV</key>
+          <string>16</string>
+        </dict>
+        <key>9DFF46AD-73DE-422E-A6A3-16745129C94E</key>
+        <dict>
+          <key>HH</key>
+          <string>146</string>
+          <key>HV</key>
+          <string>166</string>
+          <key>OH</key>
+          <string>148</string>
+          <key>OV</key>
+          <string>166</string>
+          <key>nV</key>
+          <string>160</string>
+          <key>nd</key>
+          <string>137</string>
+          <key>oH</key>
+          <string>137</string>
+          <key>oV</key>
+          <string>160</string>
+        </dict>
+        <key>9E4B8FD8-F8AF-4AA7-8E0D-0C907FFB2BDD</key>
+        <dict>
+          <key>HH</key>
+          <string>74</string>
+          <key>HV</key>
+          <string>85</string>
+          <key>OH</key>
+          <string>75</string>
+          <key>OV</key>
+          <string>85</string>
+          <key>nV</key>
+          <string>85</string>
+          <key>nd</key>
+          <string>75</string>
+          <key>oH</key>
+          <string>75</string>
+          <key>oV</key>
+          <string>85</string>
+          <key>tH</key>
+          <string>73</string>
+        </dict>
+        <key>A39231F2-FD89-43C7-8407-6F5B13136C01</key>
+        <dict>
+          <key>HH</key>
+          <string>72</string>
+          <key>HV</key>
+          <string>75</string>
+          <key>nV</key>
+          <string>75</string>
+          <key>nd</key>
+          <string>72</string>
+          <key>oH</key>
+          <string>72</string>
+          <key>oV</key>
+          <string>75</string>
+        </dict>
+        <key>DD33CD8E-69DD-4B14-8C74-C48DBFAEAB38</key>
+        <dict/>
+        <key>UUID0</key>
+        <dict>
+          <key>HH</key>
+          <string>160</string>
+          <key>HV</key>
+          <string>186</string>
+          <key>OH</key>
+          <string>162</string>
+          <key>OV</key>
+          <string>186</string>
+          <key>nV</key>
+          <string>180</string>
+          <key>nd</key>
+          <string>154</string>
+          <key>oH</key>
+          <string>151</string>
+          <key>oV</key>
+          <string>180</string>
+          <key>tH</key>
+          <string>148</string>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>blackLargeCircle</string>
+        <string>blackSquare.roundBlackBox</string>
+        <string>largeCircle</string>
+        <string>stroke-cy</string>
+        <string>whiteRoundedCornersSquare</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>
