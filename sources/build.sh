@@ -4,7 +4,7 @@ set -e
 mkdir -p ../fonts ../fonts/ttf ../fonts/ttf/static ../fonts/otf ../fonts/web_fonts ../fonts/web_fonts/static
 
 
-# VF ===================================================================
+# # VF ===================================================================
 
 function postprocess_vf {
     gftools fix-nonhinting $1 $1.fix
@@ -36,7 +36,7 @@ rm ../fonts/ttf/*gasp.ttf
 
 echo "GENERATING TTFs"
 fontmake -g SofiaSans-VF-New.glyphs -i -o ttf --output-dir ../fonts/ttf/static
-fontmake -g SofiaSans_Italic_VF.glyphs -i -o ttf --output-dir ../fonts/ttf/static
+fontmake -g SofiaSans_Italic_VF-New.glyphs -i -o ttf --output-dir ../fonts/ttf/static
 
 echo "POST PROCESSING TTFs"
 ttfs=$(ls ../fonts/ttf/static/*.ttf)
