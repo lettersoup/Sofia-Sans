@@ -22,7 +22,9 @@ UPRIGHT_AXES = [
         name="Width",
         ordering=0,
         values=[
-            dict(value=75, name="Condensed"), 
+            dict(value=50, name="ExtraCondensed"),
+            dict(value=75, name="Condensed"),
+            dict(value=87.5, name="SemiCondensed"),
             dict(value=100, name="Normal", flags=0x2), # Regular
         ],
     ),
@@ -31,17 +33,23 @@ UPRIGHT_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
-            dict(value=500, name="Medium"),  # Medium
-            dict(value=600, name="SemiBold"),  # SemiBold
-            dict(value=700, name="Bold"),  # Bold
+            dict(nominalValue=1, rangeMinValue=1, rangeMaxValue=50, name="HairLine"),
+            dict(nominalValue=100, rangeMinValue=50, rangeMaxValue=150, name="Thin"),
+            dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
+            dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", flags=0x2, linkedValue=700),
+            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=650, name="Medium"),
+            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=750, name="Bold"),
+            dict(nominalValue=800, rangeMinValue=750, rangeMaxValue=850, name="ExtraBold"),
+            dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=950, name="Black"),
+            dict(nominalValue=1000, rangeMinValue=950, rangeMaxValue=1000, name="ExtraBlack"),
         ],
     ),
     dict(
         tag="ital",
         name="Italic",
         ordering=2,
-        values=[dict(value=0, name="Regular", flags=0x2, linkedValue=1)],  # Regular
+        values=[dict(value=0, name="Roman", flags=0x2, linkedValue=1)],  # Regular
     ),
 ]
 
@@ -51,7 +59,7 @@ ITALIC_AXES = [
         name="Width",
         ordering=0,
         values=[
-            dict(value=50, name="UltraCondensed"),
+            dict(value=50, name="ExtraCondensed"),
             dict(value=75, name="Condensed"),
             dict(value=87.5, name="SemiCondensed"),
             dict(value=100, name="Normal", flags=0x2), # Regular
@@ -83,8 +91,8 @@ ITALIC_AXES = [
 ]
 
 VARIABLE_DIR = "../fonts/ttf"
-SOF_UPRIGHT = f"{VARIABLE_DIR}/SofiaSans\[wdth,wght]\.ttf"
-# SOF_ITALIC = f"{VARIABLE_DIR}/SofiaSans-Italic\[wdth,wght]\.ttf"
+SOF_UPRIGHT = f"{VARIABLE_DIR}/SofiaSans[wdth,wght].ttf"
+SOF_ITALIC = f"{VARIABLE_DIR}/SofiaSans-Italic[wdth,wght].ttf"
 
 
 def main():
@@ -95,12 +103,12 @@ def main():
     tt.save(filepath)
     print(f"[STAT TABLE] Added STAT table to {filepath}")
 
-    # # process italics files
-    # filepath = SOF_ITALIC
-    # tt = TTFont(filepath)
-    # buildStatTable(tt, ITALIC_AXES)
-    # tt.save(filepath)
-    # print(f"[STAT TABLE] Added STAT table to {filepath}")
+    # process italics files
+    filepath = SOF_ITALIC
+    tt = TTFont(filepath)
+    buildStatTable(tt, ITALIC_AXES)
+    tt.save(filepath)
+    print(f"[STAT TABLE] Added STAT table to {filepath}")
 
 
 if __name__ == "__main__":
