@@ -4,7 +4,7 @@ set -e
 mkdir -p ../fonts ../fonts/ttf ../fonts/ttf/static ../fonts/otf ../fonts/web_fonts ../fonts/web_fonts/static
 
 
-# # VF ===================================================================
+# VF ===================================================================
 
 function postprocess_vf {
     gftools fix-nonhinting $1 $1.fix
@@ -50,6 +50,9 @@ do
 	gftools fix-hinting $ttf;
     mv "$ttf.fix" $ttf;
 
+	gftools fix-weightclass $ttf;
+	mv "$ttf.fix" $ttf;
+
 	fonttools ttLib.woff2 compress $ttf
     
 done
@@ -60,16 +63,16 @@ done
 
 echo "GENERATING OTFs"
 fontmake -g SofiaSans-VF-New.glyphs -i -o otf --output-dir ../fonts/otf/
+fontmake -g SofiaSans_Italic_VF-New.glyphs -i -o otf --output-dir ../fonts/otf/
 
 echo "POST PROCESSING OTFs"
 otfs=$(ls ../fonts/otf/*.otf)
 for otf in $otfs
 do
-    gftools fix-dsig -f $otf;
+    psautohint $otf;
+	gftools fix-dsig -f $otf;
     gftools fix-weightclass $otf;
 	[ -f $otf.fix ] && mv $otf.fix $otf;
-    #mv "$otf.fix" $otf;
-    psautohint $otf;
 done
 
 
