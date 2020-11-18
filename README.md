@@ -11,9 +11,7 @@ The build process requires you to open up a terminal and navigate to this projec
 
 ## Step 1: Install Requirements
 
-A Python virtual environment should be used to build this project, but it is not required.
-
-If you are new to using Python virtual environments, first set up a virtual environment with:
+A Python virtual environment should be used to build this project. If you are new to using Python virtual environments, first set up a virtual environment with:
 
 ```
 virtualenv -p python3 venv
@@ -35,7 +33,7 @@ pip install --upgrade -r requirements.txt
 
 The first time you run the build, you will need to give run permissions to the build scripts.
 
-On the command line, navigate to the Git project root directory (`cd Sofia-Sans`), and then give permissions to the shell scripts with:
+On the command line, navigate to the Git project sources directory (`cd Sofia-Sans/sources`), and then give permissions to the shell scripts with:
 
 ```
 chmod -R +x sources/scripts
@@ -45,10 +43,10 @@ The `-R` applies your permission to each of the shell scripts in the directory, 
 
 ## Step 3: Run the build scripts
 
-You can then build sources by running shell scripts in `sources/scripts/` from the root directory (`Sofia-Sans`).
+You can then build sources by running the shell script in `sources` directory (`Sofia-Sans/sources`).
 
 ```
-sources/scripts/build.sh
+sh build.sh
 ```
 
 New fonts should be in the fonts directory if everything worked.
