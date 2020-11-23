@@ -13,4 +13,5 @@ lettersoup <info@lettersoup.de>
 Botio Nikoltchev <nikoltchev@lettersoup.de>
 Ani Petrova <ani.typecoop@gmail.com>
 Eli Heuer <eliheuer@gmail.com>
+Andreas Eigendorf <eigi@alphabet-type.com>
 Viviana Monsalve <viviana.monsalve.a@gmail.com>
