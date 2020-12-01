@@ -22,7 +22,7 @@ UPRIGHT_AXES = [
         name="Width",
         ordering=0,
         values=[
-            dict(value=50, name="ExtraCondensed"),
+            dict(value=50, name="UltraCondensed"),
             dict(value=75, name="Condensed"),
             dict(value=87.5, name="SemiCondensed"),
             dict(value=100, name="Normal", flags=0x2), # Regular
@@ -33,7 +33,7 @@ UPRIGHT_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(nominalValue=1, rangeMinValue=1, rangeMaxValue=50, name="HairLine"),
+            dict(nominalValue=1, rangeMinValue=1, rangeMaxValue=50, name="Hairline"),
             dict(nominalValue=100, rangeMinValue=50, rangeMaxValue=150, name="Thin"),
             dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
             dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
@@ -59,7 +59,7 @@ ITALIC_AXES = [
         name="Width",
         ordering=0,
         values=[
-            dict(value=50, name="ExtraCondensed"),
+            dict(value=50, name="UltraCondensed"),
             dict(value=75, name="Condensed"),
             dict(value=87.5, name="SemiCondensed"),
             dict(value=100, name="Normal", flags=0x2), # Regular
@@ -70,7 +70,7 @@ ITALIC_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(nominalValue=1, rangeMinValue=1, rangeMaxValue=50, name="HairLine"),
+            dict(nominalValue=1, rangeMinValue=1, rangeMaxValue=50, name="Hairline"),
             dict(nominalValue=100, rangeMinValue=50, rangeMaxValue=150, name="Thin"),
             dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
             dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
