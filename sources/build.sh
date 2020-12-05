@@ -1,10 +1,10 @@
-# source venv/bin/activate
-set -e
+# # source venv/bin/activate
+# set -e
 
 mkdir -p ../fonts ../fonts/ttf ../fonts/ttf/static ../fonts/otf ../fonts/web_fonts ../fonts/web_fonts/static
 
 
-# VF ===================================================================
+# # VF ===================================================================
 
 function postprocess_vf {
     gftools fix-nonhinting $1 $1.fix
@@ -15,7 +15,7 @@ function postprocess_vf {
 }
 
 
-echo "GENERATING VFs"
+# echo "GENERATING VFs"
 VF_FILE=../fonts/ttf/SofiaSans\[wdth,wght]\.ttf
 fontmake -g SofiaSans-VF-New.glyphs -o variable --family-name "Sofia Sans" --output-path $VF_FILE
 
@@ -31,7 +31,7 @@ python3 sofia_stat_table.py $VF_FILE
 rm ../fonts/ttf/*gasp.ttf
 
 
-# TTF ===================================================================
+# # TTF ===================================================================
 
 
 echo "GENERATING TTFs"
@@ -59,7 +59,7 @@ do
 done
 
 
-# OTF ===================================================================
+# # OTF ===================================================================
 
 
 echo "GENERATING OTFs"
@@ -84,5 +84,6 @@ rm -rf master_ufo/ instance_ufo/
 
 echo "WOFF2 for static and vf"
 
+rm -rf ../fonts/web_fonts/*.woff2 ../fonts/web_fonts/static/*.woff2
 mv ../fonts/ttf/static/*.woff2 ../fonts/web_fonts/static
 mv ../fonts/ttf/*.woff2 ../fonts/web_fonts/
