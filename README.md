@@ -3,6 +3,13 @@
 ![specimen 02](https://github.com/lettersoup/Sofia-Sans/blob/master/specimens/SofiaSans_02.png?raw=true)
 ![specimen 01](https://github.com/lettersoup/Sofia-Sans/blob/master/specimens/SofiaSans_01.png?raw=true)
 
+#About
+
+Originaly designed as a typeface for the capital city of Bulgaria,Sofia Sans is a comprehensive type system in four widths with extended coverage of the Latin-, Greek- and Cyrillic Script.
+The inspiration for the design comes from early-twentieth-century so-called technical sans serifs—typefaces with confident letterforms, a pronounced vertical impetus, and tense curves. But Sofia Sans has also nice humanistic details and soft round corners, that reminds print work with hot metal typesetting
+Lettersoup aimed to create a universally useful font family. With narrow proportions and a generous x-height, we drew a space-saving workhorse that would work well in very diverse environments: from large to small, for display and immersive reading, on-screen and in print.
+Sofia Sans is also a feature-rich OpenType family with a large character set including small caps, several figure styles, arrows, numerals in circles, etc.
+
 # Build Process
 
 The source files can be built with [Fontmake](https://github.com/googlefonts/fontmake), but there is a build script that automates the full process of building new fonts.
