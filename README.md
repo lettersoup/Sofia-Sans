@@ -3,7 +3,7 @@
 ![specimen 02](https://github.com/lettersoup/Sofia-Sans/blob/master/specimens/SofiaSans_02.png?raw=true)
 ![specimen 01](https://github.com/lettersoup/Sofia-Sans/blob/master/specimens/SofiaSans_01.png?raw=true)
 
-#About
+# About
 
 Originaly designed as a typeface for the capital city of Bulgaria,Sofia Sans is a comprehensive type system in four widths with extended coverage of the Latin-, Greek- and Cyrillic Script.
 The inspiration for the design comes from early-twentieth-century so-called technical sans serifs—typefaces with confident letterforms, a pronounced vertical impetus, and tense curves. But Sofia Sans has also nice humanistic details and soft round corners, that reminds print work with hot metal typesetting
