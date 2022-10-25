@@ -100114,14 +100114,6 @@ instances = (
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -100144,20 +100136,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = HairLine;
-name = HairLineItalic;
+name = "HairLine Italic";
 weightClass = Thin;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 150;
-},
 {
 name = panose;
 value = (
@@ -100182,58 +100165,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Thin;
-name = ThinItalic;
-weightClass = UltraLight;
-widthClass = "Ultra Condensed";
+name = "Thin Italic";
+weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 200;
-},
-{
-name = panose;
-value = (
-2,
-11,
-2,
-3,
-6,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
-interpolationWeight = 26;
-interpolationWidth = 30;
-instanceInterpolations = {
-"7BE597F2-1213-4429-94A3-E96FC63EF83E" = 0.92908;
-"9DFF46AD-73DE-422E-A6A3-16745129C94E" = 0.07092;
-};
-isItalic = 1;
-linkStyle = UltraLight;
-name = UltraLightItalic;
-weightClass = UltraLight;
-widthClass = "Ultra Condensed";
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 250;
-},
 {
 name = panose;
 value = (
@@ -100258,20 +100194,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = ExtraLight;
-name = ExtraLightItalic;
+name = "ExtraLight Italic";
 weightClass = ExtraLight;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 300;
-},
 {
 name = panose;
 value = (
@@ -100296,54 +100223,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Light;
-name = LightItalic;
+name = "Light Italic";
 weightClass = Light;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 350;
-},
-{
-name = panose;
-value = (
-2,
-11,
-3,
-3,
-6,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
-interpolationWeight = 56;
-interpolationWidth = 30;
-instanceInterpolations = {
-"7BE597F2-1213-4429-94A3-E96FC63EF83E" = 0.71631;
-"9DFF46AD-73DE-422E-A6A3-16745129C94E" = 0.28369;
-};
-isItalic = 1;
-linkStyle = SemiLight;
-name = SemiLightItalic;
-weightClass = Light;
-widthClass = "Ultra Condensed";
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -100369,14 +100253,9 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Regular;
 name = Italic;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -100401,16 +100280,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Medium;
-name = MediumItalic;
+name = "Medium Italic";
 weightClass = Medium;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -100435,16 +100309,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = SemiBold;
-name = SemiBoldItalic;
+name = "SemiBold Italic";
 weightClass = SemiBold;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -100470,16 +100339,11 @@ instanceInterpolations = {
 isBold = 1;
 isItalic = 1;
 linkStyle = Regular;
-name = BoldItalic;
+name = "Bold Italic";
 weightClass = Bold;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -100504,16 +100368,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = ExtraBold;
-name = ExtraBoldItalic;
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = weightClass;
 value = 850;
@@ -100542,16 +100401,11 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Black;
-name = BlackItalic;
+name = "Black Italic";
 weightClass = Black;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -100575,9 +100429,8 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = Heavy;
-name = HeavyItalic;
+name = "ExtraBlack Italic";
 weightClass = Heavy;
-widthClass = "Ultra Condensed";
 }
 );
 kerning = {

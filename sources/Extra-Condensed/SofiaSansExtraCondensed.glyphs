@@ -104681,14 +104681,6 @@ instances = (
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -104711,18 +104703,9 @@ instanceInterpolations = {
 };
 name = HairLine;
 weightClass = Thin;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 150;
-},
 {
 name = panose;
 value = (
@@ -104746,55 +104729,10 @@ instanceInterpolations = {
 "7BE597F2-1213-4429-94A3-E96FC63EF83E" = 0.89796;
 };
 name = Thin;
-weightClass = UltraLight;
-widthClass = "Ultra Condensed";
+weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 200;
-},
-{
-name = panose;
-value = (
-2,
-11,
-2,
-3,
-6,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
-interpolationWeight = 26;
-interpolationWidth = 30;
-instanceInterpolations = {
-"061E0761-0390-47CB-9723-8373CF82D209" = 0.20408;
-"7BE597F2-1213-4429-94A3-E96FC63EF83E" = 0.79592;
-};
-name = UltraLight;
-weightClass = UltraLight;
-widthClass = "Ultra Condensed";
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 250;
-},
 {
 name = panose;
 value = (
@@ -104819,18 +104757,9 @@ instanceInterpolations = {
 };
 name = ExtraLight;
 weightClass = ExtraLight;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 300;
-},
 {
 name = panose;
 value = (
@@ -104855,50 +104784,9 @@ instanceInterpolations = {
 };
 name = Light;
 weightClass = Light;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 350;
-},
-{
-name = panose;
-value = (
-2,
-11,
-3,
-3,
-6,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
-interpolationWeight = 56;
-interpolationWidth = 30;
-instanceInterpolations = {
-"061E0761-0390-47CB-9723-8373CF82D209" = 0.81633;
-"7BE597F2-1213-4429-94A3-E96FC63EF83E" = 0.18367;
-};
-name = SemiLight;
-weightClass = Light;
-widthClass = "Ultra Condensed";
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -104921,14 +104809,9 @@ instanceInterpolations = {
 "061E0761-0390-47CB-9723-8373CF82D209" = 1;
 };
 name = Regular;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -104953,14 +104836,9 @@ instanceInterpolations = {
 };
 name = Medium;
 weightClass = Medium;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -104985,14 +104863,9 @@ instanceInterpolations = {
 };
 name = SemiBold;
 weightClass = SemiBold;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -105019,14 +104892,9 @@ isBold = 1;
 linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -105051,18 +104919,9 @@ instanceInterpolations = {
 };
 name = ExtraBold;
 weightClass = ExtraBold;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
-{
-name = weightClass;
-value = 850;
-},
 {
 name = panose;
 value = (
@@ -105087,14 +104946,9 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
-widthClass = "Ultra Condensed";
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans Extra Cond";
-},
 {
 name = panose;
 value = (
@@ -105116,9 +104970,8 @@ interpolationWidth = 30;
 instanceInterpolations = {
 "9DFF46AD-73DE-422E-A6A3-16745129C94E" = 1;
 };
-name = Heavy;
+name = ExtraBlack;
 weightClass = Heavy;
-widthClass = "Ultra Condensed";
 }
 );
 kerning = {
