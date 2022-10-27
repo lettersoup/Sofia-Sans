@@ -100115,6 +100115,7 @@ width = 479;
 );
 instances = (
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -100403,6 +100404,7 @@ name = "Black Italic";
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
