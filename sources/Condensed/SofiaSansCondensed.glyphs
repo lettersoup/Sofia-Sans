@@ -91,12 +91,26 @@ value = (
 {
 Name = Weight;
 Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
 }
 );
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+1 = 16;
+100 = 21;
+200 = 39;
+300 = 44;
+400 = 72;
+500 = 83;
+600 = 94;
+700 = 110;
+800 = 127;
+900 = 151;
+1000 = 168;
+};
+};
 }
 );
 date = "2022-10-25 01:08:18 +0000";
@@ -83437,7 +83451,7 @@ unicode = 201D;
 },
 {
 glyphname = quoteleft;
-lastChange = "2022-10-27 03:26:45 +0000";
+lastChange = "2022-10-27 03:43:07 +0000";
 layers = (
 {
 components = (
@@ -83470,7 +83484,7 @@ transform = "{-1, 0, 0, -1, 299, 500}";
 }
 );
 layerId = "447BF32C-5B1D-49E6-885E-D276D7630B14";
-width = 299;
+width = 300;
 }
 );
 leftKerningGroup = quotedblleft;
