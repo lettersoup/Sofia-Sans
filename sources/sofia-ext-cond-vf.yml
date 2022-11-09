@@ -8,8 +8,8 @@ woffDir: ../fonts/webfonts/Extra-Condensed
 axisOrder:
   - wght
   - ital
-buildStatic: False
-buildWebfont: False
+# buildStatic: False
+# buildWebfont: False
 buildOTF: False
 stat:
   - name: Weight
