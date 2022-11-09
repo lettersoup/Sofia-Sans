@@ -64,6 +64,10 @@ wght = {
 1000 = 172;
 };
 };
+},
+{
+name = "Variable Font Origin";
+value = "7C569905-1C91-4856-B9FC-2D0B6400E3AF";
 }
 );
 date = "2022-10-25 01:06:26 +0000";
