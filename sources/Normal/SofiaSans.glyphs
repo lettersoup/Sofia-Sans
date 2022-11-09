@@ -262,7 +262,7 @@ descender = -200;
 horizontalStems = (
 16
 );
-iconName = Light;
+iconName = Light_SemiExtended;
 id = "8E001827-4555-4882-9710-42A9586BB804";
 userData = {
 GSCornerRadius = 3;
@@ -326,6 +326,7 @@ descender = -200;
 horizontalStems = (
 75
 );
+iconName = SemiExtended;
 id = "9E4B8FD8-F8AF-4AA7-8E0D-0C907FFB2BDD";
 userData = {
 GSCornerRadius = 12;
@@ -390,7 +391,7 @@ descender = -200;
 horizontalStems = (
 160
 );
-iconName = Bold;
+iconName = Bold_SemiExtended;
 id = "39FE7167-BE3C-4E72-AD2E-460E8E32521A";
 userData = {
 GSCornerRadius = 15;
@@ -104886,14 +104887,6 @@ instances = (
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 100;
-},
-{
 name = panose;
 value = (
 2,
@@ -104919,14 +104912,6 @@ weightClass = Thin;
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 150;
-},
-{
 name = panose;
 value = (
 2,
@@ -104948,52 +104933,10 @@ instanceInterpolations = {
 "9E4B8FD8-F8AF-4AA7-8E0D-0C907FFB2BDD" = 0.10145;
 };
 name = Thin;
-weightClass = UltraLight;
+weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 200;
-},
-{
-name = panose;
-value = (
-2,
-11,
-2,
-3,
-6,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
-interpolationWeight = 34;
-instanceInterpolations = {
-"8E001827-4555-4882-9710-42A9586BB804" = 0.73913;
-"9E4B8FD8-F8AF-4AA7-8E0D-0C907FFB2BDD" = 0.26087;
-};
-name = UltraLight;
-weightClass = UltraLight;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 250;
-},
 {
 name = panose;
 value = (
@@ -105021,14 +104964,6 @@ weightClass = ExtraLight;
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 300;
-},
-{
 name = panose;
 value = (
 2,
@@ -105055,44 +104990,6 @@ weightClass = Light;
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 350;
-},
-{
-name = panose;
-value = (
-2,
-11,
-3,
-3,
-6,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
-interpolationWeight = 64;
-instanceInterpolations = {
-"8E001827-4555-4882-9710-42A9586BB804" = 0.30435;
-"9E4B8FD8-F8AF-4AA7-8E0D-0C907FFB2BDD" = 0.69565;
-};
-name = SemiLight;
-weightClass = Light;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Sofia Sans";
-},
-{
 name = panose;
 value = (
 2,
@@ -105116,10 +105013,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans";
-},
 {
 name = panose;
 value = (
@@ -105147,10 +105040,6 @@ weightClass = Medium;
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
 name = panose;
 value = (
 2,
@@ -105175,10 +105064,6 @@ weightClass = SemiBold;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans";
-},
 {
 name = panose;
 value = (
@@ -105208,10 +105093,6 @@ weightClass = Bold;
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
 name = panose;
 value = (
 2,
@@ -105237,14 +105118,6 @@ weightClass = ExtraBold;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Sofia Sans";
-},
-{
-name = weightClass;
-value = 850;
-},
 {
 name = panose;
 value = (
@@ -105272,10 +105145,6 @@ weightClass = Black;
 {
 customParameters = (
 {
-name = familyName;
-value = "Sofia Sans";
-},
-{
 name = panose;
 value = (
 2,
@@ -105295,7 +105164,7 @@ interpolationWeight = 180;
 instanceInterpolations = {
 "39FE7167-BE3C-4E72-AD2E-460E8E32521A" = 1;
 };
-name = Heavy;
+name = ExtraBlack;
 weightClass = Heavy;
 }
 );
