@@ -1,10 +1,10 @@
 sources:
-  - ./Extra-Condensed/SofiaSansExtraCondensed.glyphs
-  - ./Extra-Condensed/SofiaSansExtraCondensed-Italic.glyphs
+  - SofiaSansExtraCondensed.glyphs
+  - SofiaSansExtraCondensed-Italic.glyphs
 familyName: Sofia Sans Extra Condensed
-vfDir: ../fonts/variable/Extra-Condensed
-ttDir: ../fonts/ttf/Extra-Condensed
-woffDir: ../fonts/webfonts/Extra-Condensed
+vfDir: ../../fonts/variable/Extra-Condensed
+ttDir: ../../fonts/ttf/Extra-Condensed
+woffDir: ../../fonts/webfonts/Extra-Condensed
 axisOrder:
   - wght
   - ital
