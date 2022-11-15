@@ -231,6 +231,7 @@ descender = -200;
 horizontalStems = (
 16
 );
+iconName = Light_SemiCondensed;
 id = "C7C49F0D-FB24-4177-B585-680F100D73B3";
 italicAngle = 9;
 verticalStems = (
@@ -290,6 +291,7 @@ descender = -200;
 horizontalStems = (
 66
 );
+iconName = SemiCondensed;
 id = "7BFDDD14-D104-4977-93DD-3DA2763EA456";
 italicAngle = 9;
 verticalStems = (
@@ -349,6 +351,7 @@ descender = -200;
 horizontalStems = (
 139
 );
+iconName = Bold_SemiCondensed;
 id = "84FABC8E-B1B3-42CE-8CB3-674F4218367A";
 italicAngle = 9;
 verticalStems = (
@@ -100115,7 +100118,6 @@ width = 479;
 );
 instances = (
 {
-exports = 0;
 customParameters = (
 {
 name = panose;
@@ -100404,7 +100406,6 @@ name = "Black Italic";
 weightClass = Black;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = panose;
@@ -113783,5 +113784,5 @@ tH = "148";
 };
 };
 versionMajor = 4;
-versionMinor = 1;
+versionMinor = 2;
 }
