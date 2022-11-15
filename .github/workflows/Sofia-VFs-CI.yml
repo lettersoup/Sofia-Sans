@@ -7,6 +7,7 @@ on:
     branches: 
     - SingWdth-VFs
     paths:
+    - .github/**
     - sources/**
   pull_request:
     branches: 
@@ -49,9 +50,9 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: SofiaSans-ExtraCond
-          path: fonts/variable/Extra-Condensed/.*ttf
+          path: fonts/variable/Extra-Condensed/*.ttf
           name: SofiaSans-Cond
-          path: fonts/variable/Condensed/.*ttf
+          path: fonts/variable/Condensed/*.ttf
       - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
@@ -59,5 +60,5 @@ jobs:
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
           paths: 
-            - "fonts/variable/Extra-Condensed*ttf"
-            - "fonts/variable/Condensed*ttf"
+            - "fonts/variable/Extra-Condensed/*.ttf"
+            - "fonts/variable/Condensed/*.ttf"
