@@ -1,4 +1,4 @@
-name: Sofia CI ExtraCondensed VFs
+name: Sofia CI Normal VF
 
 # on: [push, pull_request]
 
@@ -18,7 +18,7 @@ on:
 jobs:
   fontbakery:
     runs-on: ubuntu-latest
-    name: Fontbakery CI - ExtraCondensed VFs 
+    name: Fontbakery CI - Normal VFs 
     steps:
       - name: Check out source repository
         uses: actions/checkout@v3
@@ -41,10 +41,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint
-      - name: Fontbakery ExtraCondensed VFs
+      - name: Fontbakery Normal VF
         uses: f-actions/font-bakery@v2
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportExtCond.md"
-          path: fonts/variable/Extra-Condensed/*.ttf
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportCond.md"
+          path: fonts/variable/Normal/*.ttf
