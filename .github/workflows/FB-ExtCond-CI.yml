@@ -43,11 +43,11 @@ jobs:
           sudo apt-get install ttfautohint
       - name: Sofia Sans fonts
         id: build_fonts
-        run: cd sources && Extra-Condensed && build-ExtCnd.sh && cd ..
+        run: cd sources && cd Extra-Condensed && ./build-ExtCnd.sh && cd ..
       - uses: actions/upload-artifact@v2
         with:
           name: SofiaSans-VFs
-          path: fonts/variable/**
+          path: fonts/variable/Extra-Condensed/**
       - name: Fontbakery ExtraCondensed VFs
         uses: f-actions/font-bakery@v2
         with:
