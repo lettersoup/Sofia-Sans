@@ -29,21 +29,21 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      # - name: Python build dependency cache lookup
-      #   uses: actions/cache@v1
-      #   with:
-      #     path: ~/.cache/pip
-      #     # Check for requirements file cache hit
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
-      # - name: Install Python build dependencies
-      #   uses: py-actions/py-dependency-install@v2
-      #   with:
-      #     update-wheel: "true"
-      #     update-setuptools: "true"
-      # - name: Install ttfautohint
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install ttfautohint
+      - name: Python build dependency cache lookup
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          # Check for requirements file cache hit
+          key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
+      - name: Install Python build dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          update-wheel: "true"
+          update-setuptools: "true"
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
       - name: Sofia Sans fonts
         id: build_fonts
         run: cd sources && ./build.sh && cd ..
