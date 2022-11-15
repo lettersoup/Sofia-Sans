@@ -49,10 +49,10 @@ jobs:
         run: cd sources && ./build.sh && cd ..
       - uses: actions/upload-artifact@v2
         with:
-          name: SofiaSans-ExtraCond
-          path: fonts/variable/Extra-Condensed/*.ttf
-          name: SofiaSans-Cond
-          path: fonts/variable/Condensed/*.ttf
+          name: SofiaSans-Fonts
+          paths:
+            - fonts/variable/Extra-Condensed/*.ttf
+            - fonts/variable/Condensed/*.ttf
       - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
