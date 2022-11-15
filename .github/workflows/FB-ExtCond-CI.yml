@@ -8,12 +8,12 @@ on:
     - SingWdth-VFs
     paths:
     - .github/**
-    - sources/**
+    - sources/Extra-Condensed/
   pull_request:
     branches: 
     - master
     paths:
-    - sources/**
+    - sources/Extra-Condensed/
 
 jobs:
   fontbakery:
@@ -41,6 +41,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint
+      - name: Sofia Sans fonts
+        id: build_fonts
+        run: cd sources && Extra-Condensed && build-ExtCnd.sh && cd ..
+      - uses: actions/upload-artifact@v2
+        with:
+          name: SofiaSans-VFs
+          path: fonts/variable/**
       - name: Fontbakery ExtraCondensed VFs
         uses: f-actions/font-bakery@v2
         with:
