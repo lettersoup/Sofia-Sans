@@ -33,3 +33,5 @@ fonttools varLib.instancer ../fonts/variable/Semi-Condensed/SofiaSansSemiCondens
 echo "Normal"
 fonttools varLib.instancer ../fonts/variable/Normal/SofiaSans\[wght\].ttf  wght=100:900 --output ../fonts/variable/Normal/SofiaSans\[wght\].ttf
 fonttools varLib.instancer ../fonts/variable/Normal/SofiaSans-Italic\[wght\].ttf  wght=100:900 --output ../fonts/variable/Normal/SofiaSans-Italic\[wght\].ttf
+
+echo "DONE!"
