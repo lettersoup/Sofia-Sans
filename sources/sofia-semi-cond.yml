@@ -8,8 +8,6 @@ woffDir: ../fonts/webfonts/Semi-Condensed
 axisOrder:
   - wght
   - ital
-# buildStatic: False
-# buildWebfont: False
 buildOTF: False
 stat:
   - name: Weight
