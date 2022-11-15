@@ -51,8 +51,8 @@ jobs:
         with:
           name: SofiaSans-Fonts
           paths:
-            - 'fonts/variable/Extra-Condensed/*.ttf'
-            - 'fonts/variable/Condensed/*.ttf'
+          - fonts/variable/Extra-Condensed/*.ttf
+          - fonts/variable/Condensed/*.ttf
       - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
@@ -60,5 +60,5 @@ jobs:
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
           paths: 
-            - 'fonts/variable/Extra-Condensed/*.ttf'
-            - 'fonts/variable/Condensed/*.ttf'
+            - fonts/variable/Extra-Condensed/*.ttf
+            - fonts/variable/Condensed/*.ttf
