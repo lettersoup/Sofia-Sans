@@ -48,12 +48,16 @@ jobs:
         run: cd sources && ./build.sh && cd ..
       - uses: actions/upload-artifact@v2
         with:
-          name: SofiaSans-Fonts
-          path: fonts/variable/*.*ttf
+          name: SofiaSans-ExtraCond
+          path: fonts/variable/Extra-Condensed/.*ttf
+          name: SofiaSans-Cond
+          path: fonts/variable/Condensed/.*ttf
       - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
-          path: "fonts/variable/*.*ttf"
+          paths: 
+            - "fonts/variable/Extra-Condensed*ttf"
+            - "fonts/variable/Condensed*ttf"
