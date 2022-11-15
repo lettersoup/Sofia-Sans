@@ -18,9 +18,6 @@ on:
 jobs:
   fontbakery:
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #     python-version: [3.8]
     name: Fontbakery CI - VF Fonts
     steps:
       - name: Check out source repository
@@ -51,17 +48,3 @@ jobs:
         with:
           name: SofiaSans-VFs
           path: fonts/variable/**
-      - name: Fontbakery EstraCond VF
-        uses: f-actions/font-bakery@v2
-        with:
-          version: "latest"
-          subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportExtCond.md"
-          path: fonts/variable/Extra-Condensed/*.ttf
-      - name: Fontbakery Cond VF
-        uses: f-actions/font-bakery@v2
-        with:
-          version: "latest"
-          subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportCond.md"
-          path: fonts/variable/Condensed/*.ttf
