@@ -16,34 +16,34 @@ on:
     - sources/**
 
 jobs:
-  static-font-ci-job:
+  fontbakery:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
-    name: Fontbakery Main CI - VF Fonts
+    # strategy:
+    #   matrix:
+    #     python-version: [3.8]
+    name: Fontbakery CI - VF Fonts
     steps:
       - name: Check out source repository
-        uses: actions/checkout@v2
-      - name: Set up Python v${{ matrix.python-version }} environment
-        uses: actions/setup-python@v1
+        uses: actions/checkout@v3
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
-      - name: Python build dependency cache lookup
-        uses: actions/cache@v1
-        with:
-          path: ~/.cache/pip
-          # Check for requirements file cache hit
-          key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
-      - name: Install Python build dependencies
-        uses: py-actions/py-dependency-install@v2
-        with:
-          update-wheel: "true"
-          update-setuptools: "true"
-      - name: Install ttfautohint
-        run: |
-          sudo apt-get update
-          sudo apt-get install ttfautohint
+          python-version: "3.11"
+      # - name: Python build dependency cache lookup
+      #   uses: actions/cache@v1
+      #   with:
+      #     path: ~/.cache/pip
+      #     # Check for requirements file cache hit
+      #     key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
+      # - name: Install Python build dependencies
+      #   uses: py-actions/py-dependency-install@v2
+      #   with:
+      #     update-wheel: "true"
+      #     update-setuptools: "true"
+      # - name: Install ttfautohint
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install ttfautohint
       - name: Sofia Sans fonts
         id: build_fonts
         run: cd sources && ./build.sh && cd ..
@@ -51,12 +51,19 @@ jobs:
         with:
           name: SofiaSans-VFs
           path: fonts/variable/**
-      # - name: Fontbakery CI VF
-      #   uses: f-actions/font-bakery@v1
-      #   with:
-      #     version: "latest"
-      #     subcmd: "check-googlefonts"
-      #     args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
-      #     paths: 
-      #       - fonts/variable/Extra-Condensed/*.ttf
-      #       - fonts/variable/Condensed/*.ttf
+      - name: Fontbakery EstraCond VF
+        uses: f-actions/font-bakery@v2
+        with:
+          version: "latest"
+          subcmd: "check-googlefonts"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportExtCond.md"
+          path: 
+            - fonts/variable/Extra-Condensed/*.ttf
+      - name: Fontbakery Cond VF
+        uses: f-actions/font-bakery@v2
+        with:
+          version: "latest"
+          subcmd: "check-googlefonts"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportCond.md"
+          path: 
+            - fonts/variable/Condensed/*.ttf
