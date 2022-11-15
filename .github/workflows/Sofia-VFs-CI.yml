@@ -57,13 +57,11 @@ jobs:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportExtCond.md"
-          path: 
-            - fonts/variable/Extra-Condensed/*.ttf
+          path: fonts/variable/Extra-Condensed/*.ttf
       - name: Fontbakery Cond VF
         uses: f-actions/font-bakery@v2
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportCond.md"
-          path: 
-            - fonts/variable/Condensed/*.ttf
+          path: fonts/variable/Condensed/*.ttf
