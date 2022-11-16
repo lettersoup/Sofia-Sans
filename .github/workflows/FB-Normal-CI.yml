@@ -1,4 +1,4 @@
-name: Sofia CI Normal VF
+name: CI Normal VFs
 
 # on: [push, pull_request]
 
@@ -8,12 +8,12 @@ on:
     - SingWdth-VFs
     paths:
     - .github/**
-    - sources/**
+    - sources/Normal/
   pull_request:
     branches: 
     - master
     paths:
-    - sources/**
+    - sources/Normal/
 
 jobs:
   fontbakery:
@@ -41,7 +41,14 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint
-      - name: Fontbakery Normal VF
+      - name: Sofia Sans Normal
+        id: build_fonts
+        run: cd sources && cd Normal && ./build-Nrm.sh && cd ..
+      - uses: actions/upload-artifact@v3
+        with:
+          name: SofiaSansNormal
+          path: fonts/variable/Normal/**
+      - name: Fontbakery Normal VFs
         uses: f-actions/font-bakery@v2
         with:
           version: "latest"
