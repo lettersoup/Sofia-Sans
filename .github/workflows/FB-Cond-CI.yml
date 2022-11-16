@@ -1,4 +1,4 @@
-name: Sofia Condensed VF
+name: Sofia CI Condensed VFs
 
 # on: [push, pull_request]
 
@@ -8,12 +8,12 @@ on:
     - SingWdth-VFs
     paths:
     - .github/**
-    - sources/**
+    - sources/Condensed/
   pull_request:
     branches: 
     - master
     paths:
-    - sources/**
+    - sources/Condensed/
 
 jobs:
   fontbakery:
@@ -41,6 +41,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint
+          - name: Sofia Sans fonts
+        id: build_fonts
+        run: cd sources && cd Condensed && ./build-Cnd.sh && cd ..
+      - uses: actions/upload-artifact@v2
+        with:
+          name: SofiaSans-Condensed
+          path: fonts/variable/Condensed/**
       - name: Fontbakery Condensed VFs
         uses: f-actions/font-bakery@v2
         with:
