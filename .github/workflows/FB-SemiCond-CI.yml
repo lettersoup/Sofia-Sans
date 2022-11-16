@@ -1,4 +1,4 @@
-name: Sofia CI SemiCondensed VFs
+name: CI SemiCondensed VFs
 
 # on: [push, pull_request]
 
@@ -8,12 +8,12 @@ on:
     - SingWdth-VFs
     paths:
     - .github/**
-    - sources/**
+    - sources/Semi-Condensed/
   pull_request:
     branches: 
     - master
     paths:
-    - sources/**
+    - sources/Semi-Condensed/
 
 jobs:
   fontbakery:
@@ -41,6 +41,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint
+      - name: Sofia Sans SemiCondensed
+        id: build_fonts
+        run: cd sources && cd Semi-Condensed && ./build-SmiCnd.sh && cd ..
+      - uses: actions/upload-artifact@v3
+        with:
+          name: SofiaSans-SemiCondensed
+          path: fonts/variable/Semi-Condensed/**
       - name: Fontbakery SemiCondensed VFs
         uses: f-actions/font-bakery@v2
         with:
