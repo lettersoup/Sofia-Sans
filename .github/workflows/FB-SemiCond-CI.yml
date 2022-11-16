@@ -5,9 +5,8 @@ name: CI SemiCondensed VFs
 on: 
   push:
     branches: 
-    - SingWdth-VFs
+    - master
     paths:
-    - .github/**
     - sources/Semi-Condensed/
   pull_request:
     branches: 

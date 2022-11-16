@@ -5,9 +5,8 @@ name: CI ExtraCondensed VFs
 on: 
   push:
     branches: 
-    - SingWdth-VFs
+    - master
     paths:
-    - .github/**
     - sources/Extra-Condensed/
   pull_request:
     branches: 

@@ -5,9 +5,8 @@ name: CI Normal VFs
 on: 
   push:
     branches: 
-    - SingWdth-VFs
+    - master
     paths:
-    - .github/**
     - sources/Normal/
   pull_request:
     branches: 

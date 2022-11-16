@@ -5,9 +5,8 @@ name: CI Condensed VFs
 on: 
   push:
     branches: 
-    - SingWdth-VFs
+    - master
     paths:
-    - .github/**
     - sources/Condensed/
   pull_request:
     branches: 
@@ -46,7 +45,7 @@ jobs:
         run: cd sources && cd Condensed && ./build-Cnd.sh && cd ..
       - uses: actions/upload-artifact@v3
         with:
-          name: SofiaSansCondensed
+          name: SofiaSans-Condensed
           path: fonts/variable/Condensed/**
       - name: Fontbakery Condensed VFs
         uses: f-actions/font-bakery@v2
