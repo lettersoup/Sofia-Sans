@@ -1,4 +1,4 @@
-name: Sofia CI Condensed VFs
+name: CI Condensed VFs
 
 # on: [push, pull_request]
 
@@ -40,11 +40,11 @@ jobs:
       - name: Install ttfautohint
         run: |
           sudo apt-get update
-          sudo apt-get install ttfautohint
-          - name: Sofia Sans fonts
+         sudo apt-get install ttfautohint
+      - name: Sofia Sans Condensed
         id: build_fonts
         run: cd sources && cd Condensed && ./build-Cnd.sh && cd ..
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: SofiaSans-Condensed
           path: fonts/variable/Condensed/**

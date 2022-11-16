@@ -1,4 +1,4 @@
-name: Sofia CI ExtraCondensed VFs
+name: CI ExtraCondensed VFs
 
 # on: [push, pull_request]
 
@@ -44,7 +44,7 @@ jobs:
       - name: Sofia Sans ExtraCondensed
         id: build_fonts
         run: cd sources && cd Extra-Condensed && ./build-ExtCnd.sh && cd ..
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: SofiaSans-ExtraCondensed
           path: fonts/variable/Extra-Condensed/**
