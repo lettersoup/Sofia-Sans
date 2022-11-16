@@ -4,7 +4,7 @@ set -e
 
 echo "BUILDING SOFIA SANS SEMI CONDENSED FONTS"
 
-gftools builder sofia-ext-cond.yml
+gftools builder sofia-semi-cond.yml
 
 echo "Fonts Built!"
 

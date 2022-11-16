@@ -1,10 +1,10 @@
 sources:
-  - ./Semi-Condensed/SofiaSansSemiCondensed.glyphs
-  - ./Semi-Condensed/SofiaSansSemiCondensed-Italic.glyphs
+  - SofiaSansSemiCondensed.glyphs
+  - SofiaSansSemiCondensed-Italic.glyphs
 familyName: Sofia Sans Semi Condensed
-vfDir: ../fonts/variable/Semi-Condensed
-ttDir: ../fonts/ttf/Semi-Condensed
-woffDir: ../fonts/webfonts/Semi-Condensed
+vfDir: ../../fonts/variable/Semi-Condensed
+ttDir: ../../fonts/ttf/Semi-Condensed
+woffDir: ../../fonts/webfonts/Semi-Condensed
 axisOrder:
   - wght
   - ital
