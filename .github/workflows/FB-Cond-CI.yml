@@ -40,13 +40,13 @@ jobs:
       - name: Install ttfautohint
         run: |
           sudo apt-get update
-         sudo apt-get install ttfautohint
+          sudo apt-get install ttfautohint
       - name: Sofia Sans Condensed
         id: build_fonts
         run: cd sources && cd Condensed && ./build-Cnd.sh && cd ..
       - uses: actions/upload-artifact@v3
         with:
-          name: SofiaSans-Condensed
+          name: SofiaSansCondensed
           path: fonts/variable/Condensed/**
       - name: Fontbakery Condensed VFs
         uses: f-actions/font-bakery@v2
