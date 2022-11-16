@@ -1,10 +1,10 @@
 sources:
-  - ./Condensed/SofiaSansCondensed.glyphs
-  - ./Condensed/SofiaSansCondensed-Italic.glyphs
+  - Condensed/SofiaSansCondensed.glyphs
+  - Condensed/SofiaSansCondensed-Italic.glyphs
 familyName: Sofia Sans Condensed
-vfDir: ../fonts/variable/Condensed
-ttDir: ../fonts/ttf/Condensed
-woffDir: ../fonts/webfonts/Condensed
+vfDir: ../../fonts/variable/Condensed
+ttDir: ../../fonts/ttf/Condensed
+woffDir: ../../fonts/webfonts/Condensed
 axisOrder:
   - wght
   - ital
