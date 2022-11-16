@@ -1,10 +1,10 @@
 sources:
-  - ./Normal/SofiaSans.glyphs
-  - ./Normal/SofiaSans-Italic.glyphs
+  - SofiaSans.glyphs
+  - SofiaSans-Italic.glyphs
 familyName: Sofia Sans
-vfDir: ../fonts/variable/Normal
-ttDir: ../fonts/ttf/Normal
-woffDir: ../fonts/webfonts/Normal
+vfDir: ../../fonts/variable/Normal
+ttDir: ../../fonts/ttf/Normal
+woffDir: ../../fonts/webfonts/Normal
 axisOrder:
   - wght
   - ital
