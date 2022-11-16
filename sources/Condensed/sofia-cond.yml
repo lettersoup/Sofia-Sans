@@ -1,6 +1,6 @@
 sources:
-  - Condensed/SofiaSansCondensed.glyphs
-  - Condensed/SofiaSansCondensed-Italic.glyphs
+  - SofiaSansCondensed.glyphs
+  - SofiaSansCondensed-Italic.glyphs
 familyName: Sofia Sans Condensed
 vfDir: ../../fonts/variable/Condensed
 ttDir: ../../fonts/ttf/Condensed
