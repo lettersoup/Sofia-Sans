@@ -6,6 +6,7 @@ on:
   push:
     branches: 
     - master
+    - SingWdth-VFs
     paths:
     - sources/Extra-Condensed/
   pull_request:
