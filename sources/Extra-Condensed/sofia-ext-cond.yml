@@ -4,11 +4,11 @@ sources:
 familyName: Sofia Sans Extra Condensed
 vfDir: ../../fonts/variable/Extra-Condensed
 ttDir: ../../fonts/ttf/Extra-Condensed
+otDir: ../../fonts/otf/Extra-Condensed
 woffDir: ../../fonts/webfonts/Extra-Condensed
 axisOrder:
   - wght
   - ital
-buildOTF: False
 stat:
   - name: Weight
     tag: wght
