@@ -4,11 +4,14 @@ sources:
 familyName: Sofia Sans Semi Condensed
 vfDir: ../../fonts/variable/Semi-Condensed
 ttDir: ../../fonts/ttf/Semi-Condensed
+otDir: ../../fonts/otf/Semi-Condensed
 woffDir: ../../fonts/webfonts/Semi-Condensed
+# buildTTF: False
+# buildVariable: False
+# buildWebfont: False
 axisOrder:
   - wght
   - ital
-buildOTF: False
 stat:
   - name: Weight
     tag: wght
