@@ -3,6 +3,6 @@ fontbakery>=0.8
 gftools[qa]>=0.7
 sh>=1.14.2
 uharfbuzz>=0.29.0
-#afdko
+afdko
 
 
