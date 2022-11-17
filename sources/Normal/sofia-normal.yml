@@ -4,11 +4,11 @@ sources:
 familyName: Sofia Sans
 vfDir: ../../fonts/variable/Normal
 ttDir: ../../fonts/ttf/Normal
+otDir: ../../fonts/otf/Normal
 woffDir: ../../fonts/webfonts/Normal
 axisOrder:
   - wght
   - ital
-buildOTF: False
 stat:
   - name: Weight
     tag: wght
