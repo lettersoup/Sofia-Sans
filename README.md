@@ -12,7 +12,9 @@ Sofia Sans is also a feature-rich OpenType family with a large character set inc
 
 # Build Process
 
-The source files can be built with [Fontmake](https://github.com/googlefonts/fontmake), but there is a build script that automates the full process of building new fonts.
+The Sofia Sans superfamily comprises four variable fonts offering a wide range of widths: Normal, SemiCondensed, Condensed, and ExtraCondensed.
+
+The source files can be processed with [Fontmake](https://github.com/googlefonts/fontmake), but there is a build script that automates the full process of building new fonts.
 
 The build process requires you to open up a terminal and navigate to this project's root directory, AKA the first level (where this README file is located).
 
@@ -38,22 +40,35 @@ pip install --upgrade -r requirements.txt
 
 ## Step 2: Give permissions to build scripts
 
-The first time you run the build, you will need to give run permissions to the build scripts.
+The first time you run the build, you will need to give run permissions to the build scripts. Each of the four families has a subfolder under the `sources` directory where you could find a build script for each one.
 
-On the command line, navigate to the Git project sources directory (`cd Sofia-Sans/sources`), and then give permissions to the shell scripts with:
-
-```
-chmod -R +x sources/scripts
-```
-
-The `-R` applies your permission to each of the shell scripts in the directory, and the `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the GlyphsApp sources and apply various fixes to the results.
-
-## Step 3: Run the build scripts
-
-You can then build sources by running the shell script in `sources` directory (`Sofia-Sans/sources`).
+On the command line, navigate to the Git project sources directory (`cd Sofia-Sans/sources`), then enter to one desired font family sudirectory (e.g. `cd Extra-Condensed`) and then give permissions to the shell scripts with:
 
 ```
-sh build.sh
+chmod +x 
+```
+
+The `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the GlyphsApp sources and apply various post processing fixes to the results.
+
+## Step 3: Build the fonts
+
+
+You can then build the fonts by running the shell script on each family subdirectory e.g. `sources/Extra-Condensed`.
+
+```
+sh build-ExtCnd.sh
 ```
 
 New fonts should be in the fonts directory if everything worked.
+
+
+## Change log
+
+updated as of 11/17/2022
+
+Sofia Sans was divided into four single `wght` axis fonts for each width for its inclusion in Google Fonts catalog.
+
+- Sofia Sans v4.100
+- Sofia Sans SemiCondensed v4.100
+- Sofia Sans Condensed v4.100
+- Sofia Sans ExtraCondensed v4.100
