@@ -1,0 +1,56 @@
+name: CI ExtraCondensed VFs
+
+# on: [push, pull_request]
+
+on: 
+  push:
+    branches: 
+    - master
+    paths:
+    - sources/Extra-Condensed/
+  pull_request:
+    branches: 
+    - master
+    paths:
+    - sources/Extra-Condensed/
+
+jobs:
+  fontbakery:
+    runs-on: ubuntu-latest
+    name: Fontbakery CI - ExtraCondensed VFs 
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v3
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - name: Python build dependency cache lookup
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          # Check for requirements file cache hit
+          key: ${{ runner.os }}-pip-${{ hashFiles('${{ steps.config.outputs.dependpath }}') }}
+      - name: Install Python build dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          update-wheel: "true"
+          update-setuptools: "true"
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
+      - name: Sofia Sans ExtraCondensed
+        id: build_fonts
+        run: cd sources && cd Extra-Condensed && ./build-ExtCnd.sh && cd ..
+      - uses: actions/upload-artifact@v3
+        with:
+          name: SofiaSans-ExtraCondensed
+          path: fonts/variable/Extra-Condensed/**
+      - name: Fontbakery ExtraCondensed VFs
+        uses: f-actions/font-bakery@v2
+        with:
+          version: "latest"
+          subcmd: "check-googlefonts"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/reportExtCond.md"
+          path: fonts/variable/Extra-Condensed/*.ttf
