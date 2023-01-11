@@ -1,9 +1,5 @@
 {
 .appVersion = "1352";
-DisplayStrings = (
-"/tildecomb/tilde/tildecomb oõ",
-"õ"
-);
 classes = (
 {
 automatic = 1;
@@ -100062,6 +100058,7 @@ width = 560;
 );
 instances = (
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -100354,6 +100351,7 @@ name = "Black Italic";
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -114548,5 +114546,5 @@ tH = "148";
 };
 };
 versionMajor = 4;
-versionMinor = 100;
+versionMinor = 101;
 }

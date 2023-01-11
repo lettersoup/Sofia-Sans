@@ -104717,6 +104717,7 @@ width = 358;
 );
 instances = (
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -104976,6 +104977,7 @@ name = Black;
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -118214,5 +118216,5 @@ tH = "148";
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 4;
-versionMinor = 100;
+versionMinor = 101;
 }
