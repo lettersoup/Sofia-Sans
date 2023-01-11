@@ -1,8 +1,5 @@
 {
 .appVersion = "1352";
-DisplayStrings = (
-"/blackLargeCircle"
-);
 classes = (
 {
 automatic = 1;
@@ -100118,6 +100115,7 @@ width = 479;
 );
 instances = (
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -100406,6 +100404,7 @@ name = "Black Italic";
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -113784,5 +113783,5 @@ tH = "148";
 };
 };
 versionMajor = 4;
-versionMinor = 100;
+versionMinor = 101;
 }

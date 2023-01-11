@@ -100164,6 +100164,7 @@ width = 351;
 );
 instances = (
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -100445,6 +100446,7 @@ linkStyle = Black;
 name = "Black Italic";
 },
 {
+exports = 0;
 customParameters = (
 {
 name = panose;
@@ -112582,5 +112584,5 @@ tH = "148";
 };
 };
 versionMajor = 4;
-versionMinor = 100;
+versionMinor = 101;
 }

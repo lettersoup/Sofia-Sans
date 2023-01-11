@@ -8,10 +8,10 @@ gftools builder sofia-cond.yml
 
 echo "Fonts Built!"
 
-echo "POST PROCESSING VFs"
+# echo "POST PROCESSING VFs"
 
-fonttools varLib.instancer ../../fonts/variable/Condensed/SofiaSansCondensed\[wght\].ttf  wght=100:900 --output ../../fonts/variable/Condensed/SofiaSansCondensed\[wght\].ttf
-fonttools varLib.instancer ../../fonts/variable/Condensed/SofiaSansCondensed-Italic\[wght\].ttf  wght=100:900 --output ../../fonts/variable/Condensed/SofiaSansCondensed-Italic\[wght\].ttf
+# fonttools varLib.instancer ../../fonts/variable/Condensed/SofiaSansCondensed\[wght\].ttf  wght=100:900 --output ../../fonts/variable/Condensed/SofiaSansCondensed\[wght\].ttf
+# fonttools varLib.instancer ../../fonts/variable/Condensed/SofiaSansCondensed-Italic\[wght\].ttf  wght=100:900 --output ../../fonts/variable/Condensed/SofiaSansCondensed-Italic\[wght\].ttf
 
 
 echo "POST PROCESSING OTFs"
